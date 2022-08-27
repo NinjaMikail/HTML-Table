@@ -1,0 +1,73 @@
+p{
+    font-size: 50px;
+}
+/* Rappers */
+
+.rappers{
+    margin: 5% auto;
+    width: 200px;
+    text-align: center;
+    border-collapse: collapse;
+}
+.rappers tr:nth-child(even){
+    background-color: cyan;
+}
+.rappers tr:nth-child(5){
+    background-color:palevioletred;
+}
+.rappers th{
+    background-color:aquamarine;
+}
+.rappers td,.rappers th{
+    border: 1px solid grey;
+}
+
+/* Expensive */
+
+.expensive{
+    margin:3% auto;
+    width: 400px;
+    text-align: center;
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+.expensive thead{
+    background-color: rgb(72, 72, 72);
+}
+.expensive tfoot{
+    background-color: greenyellow;
+}
+.expensive td,.expensive th{
+    border:1px solid gray;
+}
+
+/* Vitalitiy */
+.vital{
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+.vital td,.vital th{
+    border: 1px solid grey;
+    width: 200px;
+}
+
+/* Planet */
+
+.planet{
+    margin: 5% auto;
+    width: 500px;
+    text-align: center;
+    border-collapse: collapse;
+}
+.planet td,.planet th{
+    border: 1px solid black;
+    padding: 7px;
+}
+.planet th[colspan="2"]{
+    background-color: cadetblue;
+}
+.planet tr:nth-child(2){
+    background-color: lightcoral;
+}
+
